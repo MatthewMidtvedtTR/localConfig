@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./Dump.js",
+  "name": "Dump",
+  "order": 1,
+  "stage": "login_success"
+}

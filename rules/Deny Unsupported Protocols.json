@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./Deny Unsupported Protocols.js",
+  "name": "Deny Unsupported Protocols",
+  "order": 2,
+  "stage": "login_success"
+}

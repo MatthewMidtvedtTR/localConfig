@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Change Confidence.js",
+  "name": "Change Confidence",
+  "order": 15,
+  "stage": "login_success"
+}

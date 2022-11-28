@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Force Email Verification.js",
+  "name": "Force Email Verification",
+  "order": 7,
+  "stage": "login_success"
+}

@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./StandardizeIDToken.js",
+  "name": "StandardizeIDToken",
+  "order": 11,
+  "stage": "login_success"
+}

@@ -1,0 +1,9 @@
+{
+  "AUTH0_DOMAIN": "matthew.ciam-sandbox.thomsonreuters.com",
+  "AUTH0_CLIENT_ID": "FtzsUO2tPxflvGLWXHYsrcwGsF2KxKnB",
+  "AUTH0_CLIENT_SECRET": "Wiaw324pKLvcspJLG8KbBRkueTSwHWWWTsTJdIn0ySZ9EtpaghbwBcDrwDrTxSbM",
+  "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
+    "AUTH0_TENANT_NAME": "matthew"
+  },
+  "AUTH0_ALLOW_DELETE": false
+}

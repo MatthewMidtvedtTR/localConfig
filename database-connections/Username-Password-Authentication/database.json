@@ -1,0 +1,50 @@
+{
+  "options": {
+    "mfa": {
+      "active": true,
+      "return_enroll_settings": true
+    },
+    "passwordPolicy": "good",
+    "strategy_version": 2,
+    "brute_force_protection": true,
+    "customScripts": {
+      "change_password": "./change_password.js",
+      "create": "./create.js",
+      "delete": "./delete.js",
+      "get_user": "./get_user.js",
+      "login": "./login.js",
+      "verify": "./verify.js"
+    },
+    "enabledDatabaseCustomization": false,
+    "import_mode": false,
+    "password_no_personal_info": {
+      "enable": false
+    },
+    "password_dictionary": {
+      "enable": false,
+      "dictionary": []
+    },
+    "password_history": {
+      "enable": false,
+      "size": 5
+    },
+    "password_complexity_options": {
+      "min_length": 8
+    }
+  },
+  "strategy": "auth0",
+  "name": "Username-Password-Authentication",
+  "is_domain_connection": false,
+  "realms": [
+    "Username-Password-Authentication"
+  ],
+  "enabled_clients": [
+    "206405_Auth0RulesClient_M2M",
+    "206405_CIS-API (Test Application)",
+    "API Explorer Application",
+    "auth0-deploy-cli-extension",
+    "CIAM-CIS",
+    "CIAM-CIS-Auth0Management",
+    "Default App"
+  ]
+}

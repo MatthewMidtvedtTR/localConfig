@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./Block Linked Local Accounts.js",
+  "name": "Block Linked Local Accounts",
+  "order": 3,
+  "stage": "login_success"
+}

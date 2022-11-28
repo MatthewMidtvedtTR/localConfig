@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "script": "./Account Linking.js",
+  "name": "Account Linking",
+  "order": 4,
+  "stage": "login_success"
+}

@@ -1,0 +1,32 @@
+{
+  "options": {
+    "client_secret": "BzE2QRUSIaq8YWFifbxbhglgTP9I6NxzYrsju0mr2TY9k5ShHFMxvopYe7jzuGTO",
+    "scope": "openid profile email",
+    "discovery_url": "https://sso-auth-nonprod.thomsonreuters.com/",
+    "authorization_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/authorization.oauth2",
+    "issuer": "https://sso-auth-nonprod.thomsonreuters.com",
+    "jwks_uri": "https://sso-auth-nonprod.thomsonreuters.com/pf/JWKS",
+    "type": "back_channel",
+    "userinfo_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/idp/userinfo.openid",
+    "token_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/token.oauth2",
+    "client_id": "auth0_6116421",
+    "domain_aliases": [
+      "thomsonreuters.com",
+      "tr.com"
+    ],
+    "tenant_domain": "thomsonreuters.com"
+  },
+  "strategy": "oidc",
+  "name": "sso-auth-nonprod",
+  "is_domain_connection": false,
+  "show_as_button": false,
+  "display_name": "sso-auth-nonprod",
+  "enabled_clients": [
+    "206405_Auth0RulesClient_M2M",
+    "API Explorer Application",
+    "auth0-deploy-cli-extension",
+    "CIAM-CIS",
+    "CIAM-CIS-Auth0Management",
+    "Default App"
+  ]
+}
