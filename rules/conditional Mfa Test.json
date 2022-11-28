@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./conditional Mfa Test.js",
+  "name": "conditional Mfa Test",
+  "order": 19,
+  "stage": "login_success"
+}

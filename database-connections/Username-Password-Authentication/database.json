@@ -39,12 +39,11 @@
     "Username-Password-Authentication"
   ],
   "enabled_clients": [
-    "206405_Auth0RulesClient_M2M",
-    "206405_CIS-API (Test Application)",
-    "API Explorer Application",
+    "Auth0 Management API",
     "auth0-deploy-cli-extension",
-    "CIAM-CIS",
-    "CIAM-CIS-Auth0Management",
-    "Default App"
+    "CIAM Admin Console",
+    "CIS",
+    "CIS-to-Auth0",
+    "Rules"
   ]
 }

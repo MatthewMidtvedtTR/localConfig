@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Force MFA unless Already Used.js",
+  "name": "Force MFA unless Already Used",
+  "order": 16,
+  "stage": "login_success"
+}

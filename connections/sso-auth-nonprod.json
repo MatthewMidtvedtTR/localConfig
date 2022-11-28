@@ -22,11 +22,10 @@
   "show_as_button": false,
   "display_name": "sso-auth-nonprod",
   "enabled_clients": [
-    "206405_Auth0RulesClient_M2M",
-    "API Explorer Application",
+    "Auth0 Management API",
     "auth0-deploy-cli-extension",
-    "CIAM-CIS",
-    "CIAM-CIS-Auth0Management",
-    "Default App"
+    "CIAM Admin Console",
+    "CIS-to-Auth0",
+    "Rules"
   ]
 }

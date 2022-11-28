@@ -7,6 +7,10 @@ function (user, context, callback) {
       ROP grants wouldn't call for MFA using use acr_values specifically  and expect mfa-required error.
      */
 
+      if(context.request!==undefined && context.request.query!==undefined && context.request.query.prompt === 'none'){
+        return callback(null, user, context);
+    }
+
     const clientMFA = context.clientMetadata.require_mfa;
     const userRoles = context.authorization.roles;
     const requiredMFARole = configuration.MFA_ROLE_NAME;

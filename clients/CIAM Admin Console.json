@@ -1,0 +1,72 @@
+{
+  "is_token_endpoint_ip_header_trusted": false,
+  "name": "CIAM Admin Console",
+  "is_first_party": true,
+  "oidc_conformant": true,
+  "sso_disabled": false,
+  "cross_origin_auth": false,
+  "refresh_token": {
+    "expiration_type": "expiring",
+    "leeway": 0,
+    "token_lifetime": 7776000,
+    "idle_token_lifetime": 1296000,
+    "infinite_token_lifetime": false,
+    "infinite_idle_token_lifetime": true,
+    "rotation_type": "non-rotating"
+  },
+  "allowed_clients": [],
+  "allowed_logout_urls": [
+    "http://localhost:3000/logout",
+    "http://localhost:4200/logout"
+  ],
+  "callbacks": [],
+  "client_metadata": {
+    "allow_reserved_domain_user_registration": "true",
+    "allow_resource_servers": "\thttps://ciam-cis-backend.com/v1",
+    "allow_roles": "206405_idp_all,206405_users",
+    "allowed_APIs": "https://ciam-cis-backend.com/v1",
+    "assetID": "a206405",
+    "owner": "auth0|62059f9a03dd226070074436",
+    "requireMFA": "true",
+    "bypassMFA": "true"
+  },
+  "description": "CIS UI App",
+  "native_social_login": {
+    "apple": {
+      "enabled": false
+    },
+    "facebook": {
+      "enabled": false
+    }
+  },
+  "allowed_origins": [
+    "http://localhost",
+    "http://localhost:4200",
+    "https://cis-api-dev.plexus-ppe.1554.aws.thomsonreuters.com",
+    "https://matthew.ciam-sandbox.thomsonreuters.com"
+  ],
+  "jwt_configuration": {
+    "alg": "RS256",
+    "lifetime_in_seconds": 36000,
+    "secret_encoded": false
+  },
+  "client_aliases": [],
+  "token_endpoint_auth_method": "none",
+  "app_type": "spa",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token",
+    "password",
+    "http://auth0.com/oauth/grant-type/password-realm",
+    "implicit"
+  ],
+  "web_origins": [
+    "http://localhost:3000/",
+    "http://localhost:4200/",
+    "http://localhost/login",
+    "http://localhost:4200/login",
+    "https://cis-api-dev.plexus-ppe.1554.aws.thomsonreuters.com",
+    "https://matthew.ciam-sandbox.thomsonreuters.com"
+  ],
+  "custom_login_page_on": true
+}
