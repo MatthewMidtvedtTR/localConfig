@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./MFANOIF.js",
+  "name": "MFANOIF",
+  "order": 36,
+  "stage": "login_success"
+}

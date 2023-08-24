@@ -2,6 +2,6 @@
   "enabled": false,
   "script": "./Auth0 MFA Example.js",
   "name": "Auth0 MFA Example",
-  "order": 18,
+  "order": 17,
   "stage": "login_success"
 }

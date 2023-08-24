@@ -1,0 +1,5 @@
+{
+  "name": "sms",
+  "enrollment_message": "{% if message_type == 'voice' %} \n Hello. Your verification code for {{tenant.friendly_name}} is {{pause}} {{code}}. I repeat, your verification code is {{pause}} {{code}} \n {% else %} \n {{code}} is your verification code for {{tenant.friendly_name}}. Please enter this code to verify your enrollment. \n {% endif %}",
+  "verification_message": "{% if message_type == 'voice' %} \n Hello. Your verification a code for {{tenant.friendly_name}} is {{pause}} {{code}}. I repeat, your verification code is {{pause}} {{code}} \n {% else %} \n {{code}} is your verification code for {{tenant.friendly_name}} \n {% endif %}"
+}

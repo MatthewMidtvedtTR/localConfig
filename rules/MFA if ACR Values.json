@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./MFA if ACR Values.js",
+  "name": "MFA if ACR Values",
+  "order": 32,
+  "stage": "login_success"
+}

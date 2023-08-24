@@ -1,20 +1,20 @@
 {
   "options": {
-    "client_secret": "BzE2QRUSIaq8YWFifbxbhglgTP9I6NxzYrsju0mr2TY9k5ShHFMxvopYe7jzuGTO",
+    "type": "back_channel",
     "scope": "openid profile email",
-    "discovery_url": "https://sso-auth-nonprod.thomsonreuters.com/",
-    "authorization_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/authorization.oauth2",
     "issuer": "https://sso-auth-nonprod.thomsonreuters.com",
     "jwks_uri": "https://sso-auth-nonprod.thomsonreuters.com/pf/JWKS",
-    "type": "back_channel",
-    "userinfo_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/idp/userinfo.openid",
-    "token_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/token.oauth2",
     "client_id": "auth0_6116421",
+    "client_secret": "BzE2QRUSIaq8YWFifbxbhglgTP9I6NxzYrsju0mr2TY9k5ShHFMxvopYe7jzuGTO",
+    "discovery_url": "https://sso-auth-nonprod.thomsonreuters.com/",
+    "tenant_domain": "thomsonreuters.com",
     "domain_aliases": [
       "thomsonreuters.com",
       "tr.com"
     ],
-    "tenant_domain": "thomsonreuters.com"
+    "token_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/token.oauth2",
+    "userinfo_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/idp/userinfo.openid",
+    "authorization_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/authorization.oauth2"
   },
   "strategy": "oidc",
   "name": "sso-auth-nonprod",
@@ -26,6 +26,7 @@
     "auth0-deploy-cli-extension",
     "CIAM Admin Console",
     "CIS-to-Auth0",
-    "Rules"
+    "Rules",
+    "test (Test Application)"
   ]
 }

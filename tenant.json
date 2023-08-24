@@ -13,6 +13,9 @@
     "colors": {
       "page_background": "#000000",
       "primary": "#FF9933"
+    },
+    "passwordless": {
+      "allow_magiclink_verify_without_session": true
     }
   }
 }

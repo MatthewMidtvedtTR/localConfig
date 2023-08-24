@@ -19,7 +19,13 @@
     "http://localhost:3000/logout",
     "http://localhost:4200/logout"
   ],
-  "callbacks": [],
+  "callbacks": [
+    "http://localhost:3000/login",
+    "http://localhost:4200/login",
+    "http://localhost:8080/cis/v1/swagger-ui/oauth2-redirect.html",
+    "https://cis-dev.plexus-ci.int.thomsonreuters.com",
+    "https://cis-api-dev.plexus-ci.int.thomsonreuters.com/cis/v1/swagger-ui/oauth2-redirect.html"
+  ],
   "client_metadata": {
     "allow_reserved_domain_user_registration": "true",
     "allow_resource_servers": "\thttps://ciam-cis-backend.com/v1",
@@ -27,8 +33,10 @@
     "allowed_APIs": "https://ciam-cis-backend.com/v1",
     "assetID": "a206405",
     "owner": "auth0|62059f9a03dd226070074436",
-    "requireMFA": "true",
-    "bypassMFA": "true"
+    "bypassMFA": "true",
+    "password_reset_policy": "15",
+    "MFA": "{\"adaptiveEnrollment\":\"default\"}",
+    "t": "行"
   },
   "description": "CIS UI App",
   "native_social_login": {

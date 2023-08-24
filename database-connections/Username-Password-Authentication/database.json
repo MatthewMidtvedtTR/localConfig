@@ -4,9 +4,7 @@
       "active": true,
       "return_enroll_settings": true
     },
-    "passwordPolicy": "good",
-    "strategy_version": 2,
-    "brute_force_protection": true,
+    "import_mode": false,
     "customScripts": {
       "change_password": "./change_password.js",
       "create": "./create.js",
@@ -15,22 +13,24 @@
       "login": "./login.js",
       "verify": "./verify.js"
     },
-    "enabledDatabaseCustomization": false,
-    "import_mode": false,
-    "password_no_personal_info": {
+    "passwordPolicy": "good",
+    "password_history": {
+      "size": 5,
       "enable": false
     },
+    "strategy_version": 2,
     "password_dictionary": {
       "enable": false,
       "dictionary": []
     },
-    "password_history": {
-      "enable": false,
-      "size": 5
+    "brute_force_protection": true,
+    "password_no_personal_info": {
+      "enable": false
     },
     "password_complexity_options": {
       "min_length": 8
-    }
+    },
+    "enabledDatabaseCustomization": false
   },
   "strategy": "auth0",
   "name": "Username-Password-Authentication",
@@ -44,6 +44,7 @@
     "CIAM Admin Console",
     "CIS",
     "CIS-to-Auth0",
-    "Rules"
+    "Rules",
+    "test (Test Application)"
   ]
 }

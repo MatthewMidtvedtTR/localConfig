@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./throwErrorIfWord.js",
+  "name": "throwErrorIfWord",
+  "order": 41,
+  "stage": "login_success"
+}

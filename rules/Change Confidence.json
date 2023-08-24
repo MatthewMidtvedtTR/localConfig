@@ -2,6 +2,6 @@
   "enabled": false,
   "script": "./Change Confidence.js",
   "name": "Change Confidence",
-  "order": 14,
+  "order": 20,
   "stage": "login_success"
 }

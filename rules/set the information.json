@@ -2,6 +2,6 @@
   "enabled": false,
   "script": "./set the information.js",
   "name": "set the information",
-  "order": 17,
+  "order": 16,
   "stage": "login_success"
 }

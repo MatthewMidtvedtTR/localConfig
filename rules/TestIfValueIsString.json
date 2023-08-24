@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./TestIfValueIsString.js",
+  "name": "TestIfValueIsString",
+  "order": 42,
+  "stage": "login_success"
+}

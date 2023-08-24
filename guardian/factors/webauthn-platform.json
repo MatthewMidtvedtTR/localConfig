@@ -1,4 +1,4 @@
 {
   "name": "webauthn-platform",
-  "enabled": false
+  "enabled": true
 }
