@@ -2,7 +2,10 @@
   "enabled_locales": [
     "en",
     "fr-CA",
-    "fr"
+    "fr",
+    "de",
+    "pt",
+    "pt-PT"
   ],
   "flags": {
     "enforce_client_authentication_on_passwordless_start": false,
