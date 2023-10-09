@@ -5,6 +5,9 @@
     "issuer": "https://sso-auth-nonprod.thomsonreuters.com",
     "jwks_uri": "https://sso-auth-nonprod.thomsonreuters.com/pf/JWKS",
     "client_id": "auth0_6116421",
+    "attribute_map": {
+      "mapping_mode": "bind_all"
+    },
     "client_secret": "BzE2QRUSIaq8YWFifbxbhglgTP9I6NxzYrsju0mr2TY9k5ShHFMxvopYe7jzuGTO",
     "discovery_url": "https://sso-auth-nonprod.thomsonreuters.com/",
     "tenant_domain": "thomsonreuters.com",
@@ -12,8 +15,12 @@
       "thomsonreuters.com",
       "tr.com"
     ],
+    "schema_version": "openid-1.0.0",
     "token_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/token.oauth2",
     "userinfo_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/idp/userinfo.openid",
+    "connection_settings": {
+      "pkce": "auto"
+    },
     "authorization_endpoint": "https://sso-auth-nonprod.thomsonreuters.com/as/authorization.oauth2"
   },
   "strategy": "oidc",

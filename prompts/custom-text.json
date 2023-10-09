@@ -2,7 +2,7 @@
   "en": {
     "login": {
       "login": {
-        "pageTitle": "should be working | ${clientName}"
+        "pageTitle": "should be working change | ${clientName}"
       }
     },
     "mfa": {
@@ -30,6 +30,16 @@
     "login": {
       "login": {
         "pageTitle": "testing ptbr | ${clientName}"
+      }
+    },
+    "mfa-push": {
+      "mfa-push-welcome": {
+        "pageTitle": "Instalar o aplicativo tes | ${clientName}"
+      }
+    },
+    "mfa": {
+      "mfa-detect-browser-capabilities": {
+        "pickAuthenticatorText": "Tentar outro método last test"
       }
     }
   },
