@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./StandardizeSAMLAssertion.js",
-  "name": "StandardizeSAMLAssertion",
-  "order": 11,
-  "stage": "login_success"
-}

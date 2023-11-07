@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./SkipMFA.js",
-  "name": "SkipMFA",
-  "order": 28,
-  "stage": "login_success"
-}

@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./StandardizeIDToken.js",
-  "name": "StandardizeIDToken",
-  "order": 10,
-  "stage": "login_success"
-}

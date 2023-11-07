@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./AuthZ to API.js",
-  "name": "AuthZ to API",
-  "order": 8,
-  "stage": "login_success"
-}

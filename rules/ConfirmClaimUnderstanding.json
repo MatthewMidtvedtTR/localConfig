@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./ConfirmClaimUnderstanding.js",
-  "name": "ConfirmClaimUnderstanding",
-  "order": 30,
-  "stage": "login_success"
-}

@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./MfaToMerge.js",
-  "name": "MfaToMerge",
-  "order": 31,
-  "stage": "login_success"
-}

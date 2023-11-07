@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./ClaimsTest.js",
-  "name": "ClaimsTest",
-  "order": 37,
-  "stage": "login_success"
-}

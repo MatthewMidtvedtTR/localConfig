@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./Force MFA.js",
-  "name": "Force MFA",
-  "order": 14,
-  "stage": "login_success"
-}

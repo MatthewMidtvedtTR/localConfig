@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./MFA with acr values.js",
-  "name": "MFA with acr values",
-  "order": 9,
-  "stage": "login_success"
-}

@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./modify user.js",
-  "name": "modify user",
-  "order": 40,
-  "stage": "login_success"
-}

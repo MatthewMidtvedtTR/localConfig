@@ -29,11 +29,13 @@
   "show_as_button": false,
   "display_name": "sso-auth-nonprod",
   "enabled_clients": [
+    "9twWYBH7sznUfD3VZwaeWR1p1mSMtk8T",
     "a8IFztn8asm581DMjImD8X0CZh9TVeHH",
-    "JuM8YcxS4cbCPgJBwFGWPs87IzYaAqEk",
-    "mAazXIBiCwOJN199SX9mLtSlzeU8tsHe",
-    "FtzsUO2tPxflvGLWXHYsrcwGsF2KxKnB",
     "aU2WxDllTIv41b1OKEYuriGFpY6yplcy",
-    "9twWYBH7sznUfD3VZwaeWR1p1mSMtk8T"
+    "FtzsUO2tPxflvGLWXHYsrcwGsF2KxKnB",
+    "JuM8YcxS4cbCPgJBwFGWPs87IzYaAqEk",
+    "kKJoazngQVq70pvhSdwGESSmxSyFlDQH",
+    "mAazXIBiCwOJN199SX9mLtSlzeU8tsHe",
+    "TiBjoc5OMKd3K4KMThMxQrTp63YRoR9t"
   ]
 }

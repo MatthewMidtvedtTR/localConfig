@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./ModifiedMFA.js",
-  "name": "ModifiedMFA",
-  "order": 21,
-  "stage": "login_success"
-}

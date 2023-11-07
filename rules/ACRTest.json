@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./ACRTest.js",
-  "name": "ACRTest",
-  "order": 35,
-  "stage": "login_success"
-}

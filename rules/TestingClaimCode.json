@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./TestingClaimCode.js",
-  "name": "TestingClaimCode",
-  "order": 33,
-  "stage": "login_success"
-}

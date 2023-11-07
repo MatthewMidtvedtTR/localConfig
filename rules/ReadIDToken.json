@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./ReadIDToken.js",
-  "name": "ReadIDToken",
-  "order": 34,
-  "stage": "login_success"
-}

@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./MFAWithVerification.js",
-  "name": "MFAWithVerification",
-  "order": 25,
-  "stage": "login_success"
-}

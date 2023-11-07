@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./Redirect.js",
-  "name": "Redirect",
-  "order": 24,
-  "stage": "login_success"
-}

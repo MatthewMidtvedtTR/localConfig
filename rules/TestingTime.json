@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./TestingTime.js",
-  "name": "TestingTime",
-  "order": 38,
-  "stage": "login_success"
-}

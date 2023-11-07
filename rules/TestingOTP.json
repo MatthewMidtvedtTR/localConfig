@@ -1,7 +1,0 @@
-{
-  "enabled": false,
-  "script": "./TestingOTP.js",
-  "name": "TestingOTP",
-  "order": 26,
-  "stage": "login_success"
-}
