@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./MFA.js",
+  "name": "MFA",
+  "order": 22,
+  "stage": "login_success"
+}

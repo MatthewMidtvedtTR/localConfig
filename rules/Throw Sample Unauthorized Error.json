@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Throw Sample Unauthorized Error.js",
+  "name": "Throw Sample Unauthorized Error",
+  "order": 19,
+  "stage": "login_success"
+}

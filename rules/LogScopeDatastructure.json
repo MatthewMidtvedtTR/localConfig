@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./LogScopeDatastructure.js",
+  "name": "LogScopeDatastructure",
+  "order": 45,
+  "stage": "login_success"
+}

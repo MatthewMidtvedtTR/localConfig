@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./AddPWDAuthTime.js",
+  "name": "AddPWDAuthTime",
+  "order": 39,
+  "stage": "login_success"
+}

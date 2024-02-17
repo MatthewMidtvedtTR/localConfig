@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./LoggingPhoneNumber.js",
+  "name": "LoggingPhoneNumber",
+  "order": 46,
+  "stage": "login_success"
+}

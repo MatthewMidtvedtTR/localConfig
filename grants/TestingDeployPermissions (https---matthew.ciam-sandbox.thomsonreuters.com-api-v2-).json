@@ -1,0 +1,10 @@
+{
+  "client_id": "TestingDeployPermissions",
+  "audience": "https://matthew.ciam-sandbox.thomsonreuters.com/api/v2/",
+  "scope": [
+    "read:clients",
+    "read:connections",
+    "update:connections",
+    "create:connections"
+  ]
+}

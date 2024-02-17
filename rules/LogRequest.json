@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./LogRequest.js",
+  "name": "LogRequest",
+  "order": 27,
+  "stage": "login_success"
+}

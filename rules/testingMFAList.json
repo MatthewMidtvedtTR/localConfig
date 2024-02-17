@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./testingMFAList.js",
+  "name": "testingMFAList",
+  "order": 44,
+  "stage": "login_success"
+}

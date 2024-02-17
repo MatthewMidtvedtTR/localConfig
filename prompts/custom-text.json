@@ -1,0 +1,53 @@
+{
+  "en": {
+    "login": {
+      "login": {
+        "pageTitle": "should be working change | ${clientName}"
+      }
+    },
+    "mfa": {
+      "mfa-detect-browser-capabilities": {
+        "pickAuthenticatorText": "Try another testing"
+      }
+    }
+  },
+  "fr-CA": {
+    "mfa": {
+      "mfa-detect-browser-capabilities": {
+        "pickAuthenticatorText": "The last test"
+      }
+    }
+  },
+  "de": {
+    "mfa-push": {
+      "mfa-push-welcome": {
+        "pageTitle": "Anwendung installieren sd | ${clientName}",
+        "title": "Sichern Sie Ihr tesing"
+      }
+    }
+  },
+  "pt": {
+    "login": {
+      "login": {
+        "pageTitle": "testing ptbr | ${clientName}"
+      }
+    },
+    "mfa-push": {
+      "mfa-push-welcome": {
+        "pageTitle": "Instalar o aplicativo tes | ${clientName}"
+      }
+    },
+    "mfa": {
+      "mfa-detect-browser-capabilities": {
+        "pickAuthenticatorText": "Tentar outro método last test"
+      }
+    }
+  },
+  "pt-PT": {
+    "login": {
+      "login": {
+        "pageTitle": "tesing ptpt | ${clientName}"
+      }
+    }
+  }
+}

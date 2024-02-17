@@ -1,0 +1,7 @@
+{
+  "enabled": false,
+  "script": "./Enrich account.js",
+  "name": "Enrich account",
+  "order": 7,
+  "stage": "login_success"
+}
