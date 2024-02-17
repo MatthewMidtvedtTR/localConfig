@@ -1,1 +1,12 @@
-{}
+{
+  "post-login": [
+    {
+      "action_name": "TwilioSMSScore",
+      "display_name": "TwilioSMSScore"
+    },
+    {
+      "action_name": "SecondAction",
+      "display_name": "SecondAction"
+    }
+  ]
+}
