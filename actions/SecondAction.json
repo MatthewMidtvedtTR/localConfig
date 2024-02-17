@@ -1,0 +1,15 @@
+{
+  "name": "SecondAction",
+  "code": "actions/SecondAction/code.js",
+  "runtime": "node18-actions",
+  "status": "built",
+  "dependencies": [],
+  "secrets": [],
+  "supported_triggers": [
+    {
+      "id": "post-login",
+      "version": "v3"
+    }
+  ],
+  "deployed": true
+}

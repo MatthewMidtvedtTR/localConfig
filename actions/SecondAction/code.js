@@ -5,7 +5,7 @@
 * @param {PostLoginAPI} api - Interface whose methods can be used to change the behavior of the login.
 */
 exports.onExecutePostLogin = async (event, api) => {
-  console.log('inside Twilio action');
+  console.log('inside second action');
 };
 
 
