@@ -1,10 +1,9 @@
 {
   "AUTH0_DOMAIN": "matthew.ciam-sandbox.thomsonreuters.com",
-  "AUTH0_CLIENT_ID": "kKJoazngQVq70pvhSdwGESSmxSyFlDQH",
-  "AUTH0_CLIENT_SECRET": "OQa2UJVBD8rCmhBRMPg0p6UTSOCha_qEw4eJsDkpfA1uks40codqsCRIibW0zyKc",
+  "AUTH0_CLIENT_ID": "PQuCDN3M1oJiW1LMN1nY9opscJWy7wHk",
+  "AUTH0_CLIENT_SECRET": "MGScWEmNZci3zi0HjTRzVIHMw5RHpz2rOrdf0G_8s2YmOf4pbzfe2IBF7h6dbsCf",
   "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
     "AUTH0_TENANT_NAME": "matthew"
   },
-  "AUTH0_EXCLUDED": ["actions", "attackProtection", "branding", "clientGrants", "clients", "customDomains", "emailProvider", "emailTemplates", "guardianFactorProviders", "guardianFactorTemplates", "guardianFactors", "guardianPhoneFactorMessageTypes", "guardianPhoneFactorSelectedProvider", "guardianPolicies", "logStreams", "migrations", "organizations", "pages", "resourceServers", "roles", "prompts", "tenant", "triggers"],
   "AUTH0_ALLOW_DELETE": false
 }
