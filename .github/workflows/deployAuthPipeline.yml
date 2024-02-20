@@ -16,6 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Get Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12.x'
+      - run: npm i -g auth0-deploy-cli@^7
 
       - name: clean file system for rules auth pipeline deployment
         run: |
@@ -41,6 +46,8 @@ jobs:
           rm -r tenant.json
           echo "file system after cleaning"
           ls
+          echo "check deploy cli version"
+          a0deploy --version
 
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
