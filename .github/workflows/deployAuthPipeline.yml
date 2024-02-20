@@ -21,6 +21,8 @@ jobs:
         run: |
           echo "rules chosen"
           ls
+          rm -r actions
+          ls
 
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
