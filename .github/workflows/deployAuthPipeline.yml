@@ -19,4 +19,18 @@ jobs:
 
       - name: greet
         run: |
-          echo "choice is ${{ inputs.choice }}"
+          echo "choice for auth pipeline deployment is ${{ inputs.choice }}"
+
+      - name: deploy rules
+        if: inputs.choice == 'rules'
+        steps:
+          - name: echo string
+            run: |
+              echo "rules"
+
+      - name: deploy actions
+        if: inputs.choice == 'actions'
+        steps:
+          - name: echo string
+            run: |
+              echo "rules"
