@@ -21,7 +21,6 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm i -g auth0-deploy-cli@^7
-      - run: npm i -g axios
 
       - name: clean file system for rules auth pipeline deployment
         run: |
@@ -50,6 +49,7 @@ jobs:
           echo "check deploy cli version"
           a0deploy --version
           chmod +x deleteAuthPipeline.js
+          npm i -g axios
           node deleteAuthPipeline.js ${{ secrets.token }} rules matthew.ciam-sandbox.thomsonreuters.com
 
   deploy-actions-auth-pipeline:
