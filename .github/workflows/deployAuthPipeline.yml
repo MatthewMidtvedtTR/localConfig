@@ -19,4 +19,4 @@ jobs:
 
       - name: greet
         run: |
-          echo "choice is ${{ inputs.choice }}
+          echo "choice is ${{ inputs.choice }}"
