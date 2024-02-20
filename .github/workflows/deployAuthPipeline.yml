@@ -50,6 +50,7 @@ jobs:
           a0deploy --version
           chmod +x deleteAuthPipeline.js
           npm i -g axios
+          ls
           node deleteAuthPipeline.js ${{ secrets.token }} rules matthew.ciam-sandbox.thomsonreuters.com
 
   deploy-actions-auth-pipeline:
