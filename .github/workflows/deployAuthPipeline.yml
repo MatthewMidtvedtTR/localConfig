@@ -1,0 +1,22 @@
+name: Manual Auth Pipeline Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      choice:
+        type: choice
+        description: choice of which auth pipeline will be deployed
+        options:
+          - rules
+          - actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: greet
+        run: |
+          echo "choice is ${{ inputs.choice }}
