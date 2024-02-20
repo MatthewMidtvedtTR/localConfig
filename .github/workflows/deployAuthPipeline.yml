@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: greet
         run: |
@@ -24,13 +24,11 @@ jobs:
       - name: deploy rules
         if: inputs.choice == 'rules'
         steps:
-          - name: echo string
-            run: |
-              echo "rules"
+          run: |
+            echo "rules"
 
       - name: deploy actions
         if: inputs.choice == 'actions'
         steps:
-          - name: echo string
-            run: |
-              echo "rules"
+          run: |
+            echo "rules"
