@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: '12.x'
       - run: npm i -g auth0-deploy-cli@^7
+      - run: npm i -g axios
 
       - name: clean file system for rules auth pipeline deployment
         run: |
