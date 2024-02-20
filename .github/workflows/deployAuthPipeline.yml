@@ -20,6 +20,7 @@ jobs:
       - name: greet rules
         run: |
           echo "rules chosen"
+          ls
 
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
@@ -30,4 +31,3 @@ jobs:
       - name: greet actions
         run: |
           echo "actions chosen"
-
