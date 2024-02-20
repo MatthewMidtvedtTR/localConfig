@@ -49,6 +49,10 @@ jobs:
           echo "check deploy cli version"
           a0deploy --version
 
+      - name: remove deployed actions from tenant
+      - run: chmod +x deleteAuthPipeline.js
+      - run: node deleteAuthPipeline.js ${{ secrets.token }} rules matthew.ciam-sandbox.thomsonreuters.com
+
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
     runs-on: ubuntu-latest
