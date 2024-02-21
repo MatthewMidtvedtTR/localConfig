@@ -52,6 +52,7 @@ jobs:
           npm i axios
           ls
           node deleteAuthPipeline.js ${{ secrets.token }} actions matthew.ciam-sandbox.thomsonreuters.com
+          a0deploy import -c=config.json --input_file=.
 
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
