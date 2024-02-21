@@ -51,7 +51,7 @@ jobs:
           chmod +x deleteAuthPipeline.js
           npm i axios
           ls
-          node deleteAuthPipeline.js ${{ secrets.token }} rules matthew.ciam-sandbox.thomsonreuters.com
+          node deleteAuthPipeline.js ${{ secrets.token }} actions matthew.ciam-sandbox.thomsonreuters.com
 
   deploy-actions-auth-pipeline:
     if: inputs.choice == 'actions'
