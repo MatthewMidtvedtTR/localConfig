@@ -36,7 +36,6 @@ jobs:
           rm -r emails
           rm -r grants
           rm -r guardian
-          rm -r hooks
           rm -r pages
           rm -r prompts
           rm -r resource-servers
