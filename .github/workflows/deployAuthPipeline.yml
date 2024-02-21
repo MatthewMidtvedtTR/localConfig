@@ -50,7 +50,6 @@ jobs:
           a0deploy --version
           chmod +x deleteAuthPipeline.js
           npm i axios
-          ls
           node deleteAuthPipeline.js ${{ secrets.token }} actions matthew.ciam-sandbox.thomsonreuters.com
           a0deploy import -c=config.json --input_file=.
 
@@ -59,7 +58,38 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Get Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12.x'
+      - run: npm i -g auth0-deploy-cli@^7
 
-      - name: greet actions
+      - name: clean file system for actions auth pipeline deployment
         run: |
-          echo "actions chosen"
+          echo "file system before cleaning"
+          ls
+          rm -r rules
+          rm -r attack-protection
+          rm -r branding
+          rm -r clients
+          rm -r connections
+          rm -r custom-domains
+          rm -r database-connections
+          rm -r emails
+          rm -r grants
+          rm -r guardian
+          rm -r hooks
+          rm -r pages
+          rm -r prompts
+          rm -r resource-servers
+          rm -r roles
+          rm -r migrations.json
+          rm -r tenant.json
+          echo "file system after cleaning"
+          ls
+          echo "check deploy cli version"
+          a0deploy --version
+          chmod +x deleteAuthPipeline.js
+          npm i axios
+          node deleteAuthPipeline.js ${{ secrets.token }} rules matthew.ciam-sandbox.thomsonreuters.com
+          a0deploy import -c=config.json --input_file=.
