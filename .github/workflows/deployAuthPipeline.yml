@@ -13,10 +13,6 @@ on:
       environment:
         type: environment
         description: environment to deploy selected auth pipeline to
-        options:
-          - dev
-          - preprod
-          - prod
         required: true
 
 jobs:
