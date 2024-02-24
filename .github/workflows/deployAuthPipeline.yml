@@ -57,7 +57,7 @@ jobs:
 
       - name: install dependencies and deploy the auth pipeline
         run: |
-          npm i auth0-deploy-cli@^7
+          npm i -g auth0-deploy-cli@^7
           npm i axios
           echo "check deploy cli version"
           a0deploy --version
