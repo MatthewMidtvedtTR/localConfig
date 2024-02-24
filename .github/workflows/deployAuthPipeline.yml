@@ -30,7 +30,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '12.x'
-      - run: npm i -g auth0-deploy-cli@^7
+      - name: install dependencies
+        run: |
+          npm i auth0-deploy-cli@^7
+          npm i axios
 
       - name: clean file system for rules auth pipeline deployment
         run: |
@@ -58,7 +61,6 @@ jobs:
           echo "check deploy cli version"
           a0deploy --version
           chmod +x deleteAuthPipeline.js
-          npm i axios
           node deleteAuthPipeline.js ${{ secrets.token }} actions matthew.ciam-sandbox.thomsonreuters.com
           echo "{\"AUTH0_DOMAIN\":\"$TENANT_DOMAIN\",\"AUTH0_CLIENT_ID\":\"PQuCDN3M1oJiW1LMN1nY9opscJWy7wHk\",\"AUTH0_CLIENT_SECRET\":\"$AUTH0_CLIENT_SECRET\",\"AUTH0_ALLOW_DELETE\":false}" > config.json
           cat config.json
