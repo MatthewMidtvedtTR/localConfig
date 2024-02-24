@@ -21,6 +21,7 @@ jobs:
   deploy-rules-auth-pipeline:
     if: inputs.choice == 'rules'
     runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
     steps:
       - uses: actions/checkout@v2
       - name: Get Node
