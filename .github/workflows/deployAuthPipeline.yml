@@ -57,7 +57,7 @@ jobs:
           chmod +x deleteAuthPipeline.js
           npm i axios
           node deleteAuthPipeline.js ${{ secrets.token }} actions matthew.ciam-sandbox.thomsonreuters.com
-          echo "{\"AUTH0_DOMAIN\":\"main.ciam-sandbox.thomsonreuters.com\",\"AUTH0_CLIENT_ID\":\"PQuCDN3M1oJiW1LMN1nY9opscJWy7wHk\",\"AUTH0_CLIENT_SECRET\":\"$AUTH0_CLIENT_SECRET\",\"AUTH0_ALLOW_DELETE\":false}" > config.json
+          echo "{\"AUTH0_DOMAIN\":\"matthew.ciam-sandbox.thomsonreuters.com\",\"AUTH0_CLIENT_ID\":\"PQuCDN3M1oJiW1LMN1nY9opscJWy7wHk\",\"AUTH0_CLIENT_SECRET\":\"$AUTH0_CLIENT_SECRET\",\"AUTH0_ALLOW_DELETE\":false}" > config.json
           cat config.json
           a0deploy import -c=config.json --input_file=.
 
