@@ -15,7 +15,7 @@ on:
         description: environment to deploy selected auth pipeline to
         required: true
 env:
-  AUTH0_CLIENT_SECRET: ${{ secrets.AUTH0_CLIENT_SECRET_REPO }}
+  AUTH0_CLIENT_SECRET: ${{ secrets.AUTH0_CLIENT_SECRET }}
 
 jobs:
   deploy-rules-auth-pipeline:
