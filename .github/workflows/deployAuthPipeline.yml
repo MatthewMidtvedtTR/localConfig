@@ -33,27 +33,8 @@ jobs:
 
       - name: clean file system for rules auth pipeline deployment
         run: |
-          echo "file system before cleaning"
-          ls
-          rm -r actions
-          rm -r attack-protection
-          rm -r branding
-          rm -r clients
-          rm -r connections
-          rm -r custom-domains
-          rm -r database-connections
-          rm -r emails
-          rm -r grants
-          rm -r guardian
-          rm -r pages
-          rm -r prompts
-          rm -r resource-servers
-          rm -r roles
-          rm -r triggers
-          rm -r migrations.json
-          rm -r tenant.json
-          echo "file system after cleaning"
-          ls
+          chmod +x ${{ inputs.environment }}.sh
+          ./${{ inputs.environment }}.sh
 
       - name: install dependencies and deploy the auth pipeline
         run: |
