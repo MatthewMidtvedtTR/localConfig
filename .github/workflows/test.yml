@@ -19,3 +19,6 @@ jobs:
 
       - name: clean file system for rules auth pipeline deployment
         run: echo $THE_ENVIRONMENT
+
+      - name: clean file system for rules auth pipeline deployment
+        run: echo 'testing things in different branches'
