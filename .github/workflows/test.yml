@@ -1,0 +1,21 @@
+name: Testing file
+
+on:
+  workflow_dispatch:
+
+env:
+  THE_ENVIRONMENT: ${{ vars.THE_ENVIRONMENT }}
+
+jobs:
+  testing-environment:
+    runs-on: ubuntu-latest
+    environment: ${{ github.head_ref || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12.x'
+
+      - name: clean file system for rules auth pipeline deployment
+        run: echo $THE_ENVIRONMENT
