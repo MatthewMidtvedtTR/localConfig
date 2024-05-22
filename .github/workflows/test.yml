@@ -10,12 +10,15 @@ jobs:
   testing-environment:
     runs-on: ubuntu-latest
     environment: ${{ github.ref_name }}
+    strategy:
+      matrix:
+        node-version: [ 12.x ]
     steps:
       - uses: actions/checkout@v2
-      - name: Get Node
-        uses: actions/setup-node@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
         with:
-          node-version: '12.x'
+          node-version: ${{ matrix.node-version }}
 
       - name: echo the environment using the environment vars feature
         run: echo $THE_ENVIRONMENT
