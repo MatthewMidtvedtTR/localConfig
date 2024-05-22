@@ -9,7 +9,7 @@ env:
 jobs:
   testing-environment:
     runs-on: ubuntu-latest
-    environment: ${{ github.head_ref || github.ref_name }}
+    environment: ${{ github.ref_name }}
     steps:
       - uses: actions/checkout@v2
       - name: Get Node
@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: '12.x'
 
-      - name: clean file system for rules auth pipeline deployment
+      - name: echo the environment
         run: echo $THE_ENVIRONMENT
