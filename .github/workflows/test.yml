@@ -9,7 +9,7 @@ env:
 jobs:
   testing-environment:
     runs-on: ubuntu-latest
-    environment: ${{ github.ref_name }}
+    environment: sandbox
     strategy:
       matrix:
         node-version: [ 12.x ]
